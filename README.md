@@ -1,2 +1,8 @@
-# main.py
-تطبيق بايثون للأندرويد
+from kivy.app import App
+from kivy.uix.label import Label
+
+class MyApp(App):
+    def build(self):
+        return Label(text="التطبيق شغال 🚀")
+
+MyApp().run()
